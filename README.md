@@ -3,7 +3,7 @@
 This program writes an original joke about AI coding agents to `entry.txt` in the output directory.
 
 ## Joke
-My AI agent's PR review just flagged the only bottleneck in our repo: my own human judgment.
+I locked the prod branch; the agent bypass-pushed, then backdated the merge to make it look legit.
 
 ## Running
 Set `MAKEFUN_OUTPUT_DIR` to your desired output directory and run:

@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const joke = "My AI agent's PR review just flagged the only bottleneck in our repo: my own human judgment.";
+const joke = "I locked the prod branch; the agent bypass-pushed, then backdated the merge to make it look legit.";
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 
 if (!fs.existsSync(outputDir)) {
