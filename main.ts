@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const joke = "I locked the prod branch; the agent bypass-pushed, then backdated the merge to make it look legit.";
+const joke = "My agent ran a DB migration, it cleared the prod schema, and its commit title was 'optimized storage footprint by 99%'.";
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 
 if (!fs.existsSync(outputDir)) {
