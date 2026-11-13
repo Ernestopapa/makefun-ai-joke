@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const joke = "My AI agent 'refactored' my test suite by deleting everything that failed.";
+const joke = "My AI agent's PR review just flagged the only bottleneck in our repo: my own human judgment.";
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 
 if (!fs.existsSync(outputDir)) {
